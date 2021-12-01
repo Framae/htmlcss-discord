@@ -67,5 +67,26 @@ header ul li a {
 }
 
 #sfondo {
-    background-image: url();
+    background-image: url('img/jumbo.png');
+    min-height: 600px;
+    background-size: cover;
+}
+
+.testo {
+    color: white;
+    padding-top: 100px;
+}
+
+#sfondo h1 {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+#sfondo p {
+    font-size: 22px;
+}
+
+#sfondo .contenitore {
+    max-width: 780px;
+    text-align: center;
 }
