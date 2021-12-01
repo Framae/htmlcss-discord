@@ -20,6 +20,7 @@ header {
     max-width: 1180px;
     width: 80%;
     margin: auto;
+    position: relative;
 }
 
 .barra-nav::after {
@@ -107,4 +108,21 @@ header ul li a {
 
 #sfondo a {
     text-decoration: none;
+}
+
+.sfondo-nero {
+    display: inline-block;
+    position: absolute;
+    top: 40px;
+    right: 0;
+    width: 33%;
+}
+
+.sfondo-nero h1 {
+    font-size: 50px;
+}
+
+.sfondo-nero p {
+    font-size: 22px;
+    margin-top: 20px;
 }
