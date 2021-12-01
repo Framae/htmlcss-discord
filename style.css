@@ -7,8 +7,7 @@
 
 header {
     width: 100%;
-    height: 100px;
-    line-height: 100px;
+    height: 50px;
     background-color: blue;
 }
 
@@ -20,6 +19,7 @@ header {
     max-width: 1180px;
     width: 80%;
     margin: auto;
+    line-height: 50px;
 }
 
 .barra-nav::after {
@@ -28,12 +28,8 @@ header {
     clear: both;
 }
 
-.barra-nav {
-}
-
 #logo {
     float: left;
-    width: 15%;
 }
 
 header nav {
@@ -44,20 +40,20 @@ header nav {
     vertical-align: middle;
 }
 
-.login .bottone {
+.login .bottone-uno {
     float: right;
-    width: 15%;
+    padding: 0 16px;
     background-color: white;
     text-decoration: none;
-    border-radius: 15px;
+    border-radius: 40px;
     color: rgb(22, 22, 22);
     text-align: right;
+    display: inline-block;
 }
 
 header ul li {
     display: inline-block;
     margin: 0 20px;
-    vertical-align: baseline;
 } 
 
 header ul li a {
@@ -89,4 +85,26 @@ header ul li a {
 #sfondo .contenitore {
     max-width: 780px;
     text-align: center;
+}
+
+#buttons {
+    margin-top: 30px;
+}
+
+.bottone {
+   background-color: white;
+   border-radius: 40px;
+   padding: 8px 16px;
+   margin-right: 15px;
+}
+
+.bottone-nero {
+    background-color: black;
+    color: white;
+    border-radius: 40px;
+    padding: 8px 16px;
+}
+
+#sfondo a {
+    text-decoration: none;
 }
