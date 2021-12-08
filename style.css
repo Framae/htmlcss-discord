@@ -258,6 +258,21 @@ footer::before {
     margin: 40px 0;
 }
 
+.left-side {
+    float: left;
+}
 
+.right-side {
+    float: right;
+}
 
+.last-btn {
+    color: white;
+    text-shadow: 1px 1px 1px;
+    font-size: 18px;
+    background-color: rgb(141, 141, 201);
+    padding: 10px 20px;
+    border-radius: 40px;
+    text-decoration: none;
+}
                 /* fine FOOTER */   
