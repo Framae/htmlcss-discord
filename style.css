@@ -147,10 +147,29 @@ header ul li a {
             /* SECONDA SEZIONE MAIN */
 
 #second-section {
+    height: 700px;
     background-color: lightgray;
     padding: 100px 0;
     margin-bottom: 150px;
 }
+
+.side-text-two {
+    float: left;
+    width: 33%;
+}
+
+.second-img {
+    float: right;
+    width: 33%;
+}
+
+#second-section::before {
+    display: table;
+    content: "";
+    clear: both;
+}
+
+
 
             /* QUARTA SEZIONE MAIN */
 
