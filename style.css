@@ -118,12 +118,23 @@ header ul li a {
 }
             /* fine JUMBOTRON */
 
+            /* PRIMA SEZIONE MAIN */
 
-#sfondo a {
-    text-decoration: none;
+#first-section {
+    margin: 150px 0;
 }
+            /* SECONDA SEZIONE MAIN */
 
-.sfondo-nero {
+#second-section {
+    background-color: lightgray;
+    margin-bottom: 150px;
+}            
+
+            /* TERZA SEZIONE MAIN */
+
+            /* QUARTA SEZIONE MAIN */
+
+.side-text {
     display: inline-block;
     position: absolute;
     top: 40px;
@@ -131,11 +142,11 @@ header ul li a {
     width: 33%;
 }
 
-.sfondo-nero h1 {
+.side-text h1 {
     font-size: 50px;
 }
 
-.sfondo-nero p {
+.side-text p {
     font-size: 22px;
     margin-top: 20px;
 }
