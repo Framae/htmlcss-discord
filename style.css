@@ -134,6 +134,22 @@ header ul li a {
 
             /* QUARTA SEZIONE MAIN */
 
+#fourth-section {
+    margin: 150px 0;
+}
+
+.tech-trust {
+    font-size: 45px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 40px;    
+}
+
+#fourth-section p {
+    text-align: center;
+    font-size: 20px;
+} 
+
 .side-text {
     display: inline-block;
     position: absolute;
