@@ -152,8 +152,6 @@ header ul li a {
     margin-bottom: 150px;
 }
 
-            /* TERZA SEZIONE MAIN */
-
             /* QUARTA SEZIONE MAIN */
 
 #fourth-section {
@@ -254,9 +252,12 @@ footer::before {
     clear: both;
 }
 
-hr {
+#hr-footer {
     border-color: rgb(41, 41, 221);
     width: 100%;
+    margin: 40px 0;
 }
 
-                /* fine FOOTER */
+
+
+                /* fine FOOTER */   
