@@ -156,11 +156,22 @@ header ul li a {
 .side-text-two {
     float: left;
     width: 33%;
+    margin-top: 50px;
+}
+
+.side-text-two h1 {
+    font-size: 50px;
+}
+
+.side-text-two p {
+    font-size: 22px;
+    margin-top: 20px;
 }
 
 .second-img {
     float: right;
     width: 33%;
+    margin-right: 300px;
 }
 
 #second-section::before {
