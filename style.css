@@ -179,14 +179,13 @@ footer {
 .list-title {
     color: rgb(41, 41, 221);
     font-weight: 600;
-    margin-bottom: 20px;
     text-shadow: 1px 1px 1px;
 }
 
 .list-item {
     color: rgb(240, 233, 233);
     text-shadow: 1px 1px 1px;
-    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 footer::before {
@@ -195,12 +194,9 @@ footer::before {
     clear: both;
 }
 
-#hr-footer {
-    margin-bottom: 100px;
-}
-
 hr {
     border-color: rgb(41, 41, 221);
+    width: 100%;
 }
 
                 /* fine FOOTER */
