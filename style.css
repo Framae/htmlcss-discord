@@ -142,3 +142,30 @@ header ul li a {
 
 
                 /* inizio FOOTER */
+
+footer {
+    height: 500px;
+    background-color: rgb(39, 38, 38);
+    margin-top: 100px;
+}
+
+#centro-del-footer {
+    width: 80%;
+    margin: auto;
+}
+
+.ulist {
+    margin-right: 100px;
+    display: inline;
+}
+
+.list-title {
+    color: rgb(41, 41, 221);
+    font-weight: 600;
+}
+
+.list-item {
+    color: white;
+}
+
+                /* fine FOOTER */
