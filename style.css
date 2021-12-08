@@ -144,7 +144,7 @@ header ul li a {
                 /* inizio FOOTER */
 
 footer {
-    height: 500px;
+    height: 800px;
     background-color: rgb(39, 38, 38);
     margin-top: 100px;
 }
@@ -152,20 +152,47 @@ footer {
 #centro-del-footer {
     width: 80%;
     margin: auto;
+
+}
+
+#first-ul {
+    margin-right: 120px;
+    float: left;
+    margin-top: 90px;
+}
+
+#titoletto {
+    color: rgb(41, 41, 221);
+    font-size: 36px;
+    width: 300px;
+    margin-right: ;
 }
 
 .ulist {
-    margin-right: 100px;
+    margin-top: 100px;
+    margin-right: 89px;
     display: inline;
+    float: left;
+    list-style: none;
 }
 
 .list-title {
     color: rgb(41, 41, 221);
     font-weight: 600;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 1px;
 }
 
 .list-item {
-    color: white;
+    color: rgb(240, 233, 233);
+    text-shadow: 1px 1px 1px;
+    margin-bottom: 20px;
+}
+
+footer::before {
+    display: table;
+    content: "";
+    clear: both;
 }
 
                 /* fine FOOTER */
