@@ -195,4 +195,12 @@ footer::before {
     clear: both;
 }
 
+#hr-footer {
+    margin-bottom: 100px;
+}
+
+hr {
+    border-color: rgb(41, 41, 221);
+}
+
                 /* fine FOOTER */
