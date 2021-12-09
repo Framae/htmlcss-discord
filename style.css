@@ -240,7 +240,6 @@ footer {
 #centro-del-footer {
     width: 80%;
     margin: auto;
-
 }
 
 #first-ul {
@@ -280,13 +279,13 @@ footer {
     margin-top: 20px;
 }
 
-footer::before {
+#lists::before {
     display: table;
     content: "";
     clear: both;
 }
 
-footer::after {
+#lists::after {
     display: table;
     content: "";
     clear: both;
